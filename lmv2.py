@@ -268,7 +268,7 @@ def login(user_id, user_pw):
 
 
 CLIENT_ID = st.secrets["google"]["client_id"]
-REDIRECT_URI = "https://lovematev2.streamlit.app"
+REDIRECT_URI = "https://testcodelm-epyafhzedmopynruozxz46.streamlit.app/"
 AUTHORIZATION_ENDPOINT = "https://accounts.google.com/o/oauth2/v2/auth"
 TOKEN_ENDPOINT = "https://oauth2.googleapis.com/token"
 USERINFO_ENDPOINT = "https://openidconnect.googleapis.com/v1/userinfo"
